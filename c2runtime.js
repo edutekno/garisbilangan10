@@ -23105,6 +23105,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Keyboard.prototype.cnds.OnKey,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
 	cr.system_object.prototype.acts.WaitForSignal,
+	cr.plugins_.Sprite.prototype.acts.SetScale,
 	cr.behaviors.Platform.prototype.cnds.OnFall,
 	cr.system_object.prototype.acts.Signal,
 	cr.plugins_.Text.prototype.acts.SetText,
@@ -23113,6 +23114,5 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
 	cr.plugins_.Sprite.prototype.acts.SetMirrored,
-	cr.system_object.prototype.cnds.Else,
-	cr.plugins_.Sprite.prototype.acts.SetScale
+	cr.system_object.prototype.cnds.Else
 ];};
